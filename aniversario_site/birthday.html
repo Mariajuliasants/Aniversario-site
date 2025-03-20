@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversário!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" id="birthday-page">
+    <div id="heart-container"></div>
+    
+    <div class="card birthday-card">
+      <h1 class="title">Feliz Aniversário!</h1>
+      
+      <p class="message fade-in">
+        Querida, neste dia tão especial, quero dizer que você ilumina minha vida de uma forma que ninguém mais consegue.
+      </p>
+      
+      <p class="message fade-in-delayed">
+        Que seu dia seja tão maravilhoso quanto você. Te amo demais! ❤️
+      </p>
+      
+      <div class="cake">
+        <span>🎂</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="animations.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Criar animação de corações
+      createHearts();
+    });
+  </script>
+</body>
+</html>
