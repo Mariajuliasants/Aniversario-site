@@ -122,3 +122,10 @@ function createFlowers() {
     styleElement.textContent = styleSheet;
     document.head.appendChild(styleElement);
   });
+
+  document.addEventListener("keydown", function(event) {
+      if (event.key === "F5") {
+          window.location.href = "index.html"; // Redireciona para o index.html
+      }
+  });
+

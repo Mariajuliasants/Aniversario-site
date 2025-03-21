@@ -24,6 +24,9 @@
       
       <div class="cake">
         <span>🎂</span>
+        <div class="button-container">
+          <button id="clique-button" class="button button-primary">Clique aqui</button>
+        </div>
       </div>
     </div>
   </div>
@@ -33,6 +36,9 @@
     document.addEventListener('DOMContentLoaded', function() {
       // Criar animação de corações
       createHearts();
+      document.getElementById('clique-button').addEventListener('click', function() {
+        window.location.href = 'pinkflower/pink-flowers.html';
+      });
     });
   </script>
 </body>
